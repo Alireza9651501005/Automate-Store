@@ -1,0 +1,101 @@
+
+// =================================== Boxes and Logos =================================
+
+.invoice {
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    margin-left: 3rem;
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  img {
+    margin-right: 5rem;
+  }
+}
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2rem;
+  :first-child {
+    margin-left: 3rem;
+  }
+  :nth-child(2) {
+    margin-right: 3rem;
+  }
+}
+
+.from {
+  .card {
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: .8rem;
+    line-height: .3rem;
+    padding: 1rem;
+  }
+}
+
+.info {
+  display: flex;
+  margin-left: 3rem;
+  line-height: 1.5rem;
+  
+  button {
+    height: 2rem;
+    width: 7rem;
+    margin: 0 0 .7rem 25rem;
+    background-color: palevioletred;
+    font-weight: bolder;
+  }
+  span {
+    padding: .5rem;
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+}
+
+
+// =========================== Products =====================================//
+
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #555;
+  margin: 0 0 .5rem 3rem;
+  width: 55rem;
+  height: 3rem;
+  color: #fff;
+  font-weight: bolder;
+  input {
+    width: 8rem;
+    height: 1rem;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  #del {
+    background-color: red;
+    cursor: pointer;
+  }
+}
+
+// ===================== Total Price ======================================== //
+
+
+.all-products {
+  margin-left: 50rem;
+  span {
+      border: 1px solid red;
+  }
+}
+
+
